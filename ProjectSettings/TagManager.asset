@@ -3,16 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Town
+  - OverWorld
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
+  - Portal
+  - SpawnPoint
   - 
   - 
   - 
@@ -38,6 +40,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: SkyBox
+    uniqueID: 718371947
+    locked: 0
+  - name: Background
+    uniqueID: 1127569393
+    locked: 0
+  - name: Ground
+    uniqueID: 1549625955
+    locked: 0
+  - name: OnGround
+    uniqueID: 3569288953
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: SpawnPoint
+    uniqueID: 3510432585
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1567920897
+    locked: 0
+  - name: Sky
+    uniqueID: 2955193593
     locked: 0
