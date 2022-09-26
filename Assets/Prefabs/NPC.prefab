@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6606490505307921821}
   - component: {fileID: 6606490505307921822}
   - component: {fileID: 6606490505307921823}
+  - component: {fileID: 1588955634}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6606490505307921821
 SpriteRenderer:
@@ -54,7 +55,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -725678343
-  m_SortingLayer: 1
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: -946224024, guid: d230dd46f3af4c549b1c95ae7523af48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -99,14 +100,14 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 6
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &6606490505307921823
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -123,3 +124,30 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.09}
   m_Size: {x: 0.16, y: 0.18}
   m_Direction: 0
+--- !u!114 &1588955634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606490505307921808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 6b7cd12af1573543636a5d5cf906bfd40000000049f33cd10193745df9ac24b0
+  m_ShapePath:
+  - {x: -0.03419429, y: 0.013406575, z: 0}
+  - {x: -0.03642875, y: 0.17553115, z: 0}
+  - {x: 0.030842543, y: 0.17441392, z: 0}
+  - {x: 0.03978026, y: 0.013406582, z: 0}
+  m_ShapePathHash: 894009813
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -22680
